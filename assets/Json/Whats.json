@@ -1,0 +1,19 @@
+[{
+    "_id": {
+      "$oid": "61bebfcad81ccb1ae39aa677"
+    },
+    "header": "Following plans are work-in-progress",
+    "points": [
+      "50th IGL Music Event in Chennai in December 2021",
+      "Group Medley song at IGL Raaga Season #5",
+      "International Workshops on Arts, Music, and Technology at Dr.M.G.R Institute",
+      "Projects for RRC Staff from Arts and Science Departments",
+      "Communication courses for RRC Students in all departments",
+      "Finishing up Internship Projects for Companies",
+      "Finishing up Technology and Communications Training for Engineers"
+      
+      
+      
+    ],
+    "partition": "all"
+  }]

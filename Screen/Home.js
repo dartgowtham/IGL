@@ -6,8 +6,12 @@ import Bar from '../assets/optionmaroon.png'
 import art from '../assets/art.png' 
 import tech from '../assets/tech.png' 
 import edu from '../assets/edu.png' 
-
+// import { useFonts } from 'expo-font'
 import cha from '../assets/cha.png'  
+import useFonts from '../hooks';
+import AppLoading from 'expo-app-loading';
+
+
 // import Realm from 'realm';
 // import whatsnew  from '../Models/whatsnew';
 
@@ -35,20 +39,20 @@ const {height,width}=Dimensions.get('window')
 
 
 
-export default class Home extends Component{
+export default class Home extends Component
+{
    
         constructor()
         {
             super();
             this.state={show:false}
         }
+ 
         
         render(){
   return (
     <SafeAreaView style={{marginTop:30}}>
-        {/* Menu Bar */}
-   
-            
+        {/* Menu Bar */}           
         
     <View style={{flexDirection:'row',jusrtifyContent:'space-evenly',alignSelf:'center'}}>
       <Image source={Logo} alt='Logo' style={{width:80,height:80,aspectRatio:1.2}}/>
@@ -62,7 +66,7 @@ export default class Home extends Component{
             <View style={{backgroundColor:'white',padding:10,position:'absolute',right:10,top:70,borderRadius:10}}>
                 <View style={{marginTop:10}}>
                 <TouchableOpacity onPress={()=>{this.props.navigation.navigate("Testimoni")}}> 
-                    <Text style={{color:'#6e0202',textAlign:'center',fontWeight:'900',fontSize:19}}>Testimonials</Text>
+                    <Text style={{color:'#6e0202',textAlign:'center',fontWeight:'900',fontSize:19,}}>Testimonials</Text>
                 </TouchableOpacity>
                 </View> 
                  <View style={{marginTop:10}}>
@@ -95,14 +99,14 @@ export default class Home extends Component{
         <TouchableOpacity onPress={()=>{this.props.navigation.navigate("Arts")}}>
         <View style={{width:350,height:150,backgroundColor:'#f06d16',flexDirection:'row',alignItems:'center',borderRadius:20, }}>
             <Image source={art} alt='art' style={{width:100,height:100,marginLeft:10}}/>
-            <Text style={{color:'white',fontWeight:'900',fontSize:30,marginLeft:10}}>Arts & Music</Text>
+            <Text style={{color:'white',fontWeight:'900',fontSize:30,marginLeft:10,}}>Arts & Music</Text>
         </View>
         </TouchableOpacity>
 
         <TouchableOpacity onPress={()=>{this.props.navigation.navigate("Tech")}}>
         <View style={{width:350,height:150,backgroundColor:'#097ab8',flexDirection:'row',alignItems:'center',borderRadius:20, }}>
             <Image source={tech} alt='art' style={{width:100,height:null,aspectRatio:1.7,marginLeft:10}}/>
-            <Text style={{color:'white',fontWeight:'900',fontSize:30,marginLeft:10}}>Technology</Text>
+            <Text style={{color:'white',fontWeight:'900',fontSize:30,marginLeft:10,fontFamily:'baloo'}}>Technology</Text>
         </View>
         </TouchableOpacity>
 

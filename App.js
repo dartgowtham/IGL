@@ -1,5 +1,6 @@
 
 import { View,Text } from 'react-native';
+import AppLoading from 'expo-app-loading';
 import Home from './Screen/Home'
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -12,8 +13,32 @@ import Arts from './Screen/Components/Arts';
 import Charity from './Screen/Components/Charity';
 import Edu from './Screen/Components/Edu';
 import Tech from './Screen/Components/Tech';
+// import useFonts from 'f';
+// import { useFonts } from '@expo-google-fonts/baloo-2';
+import { useState } from 'react';
+import useFonts from './hooks';
+
+
 export default function App() {
+  
+const [IsReady, SetIsReady] = useState(false);
+
+const LoadFonts = async () => {
+  await useFonts();
+};
+
+if (!IsReady) {
+  return (
+    <AppLoading
+      startAsync={LoadFonts}
+      onFinish={() => SetIsReady(true)}
+      onError={() => {}}
+    />
+  );
+}
+
   Stack=createNativeStackNavigator()
+
   return (
       <NavigationContainer>
       <Stack.Navigator 

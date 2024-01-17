@@ -1,0 +1,33 @@
+[
+    {
+    "_id": {
+      "$oid": "61bc726c0dc466e067903d55"
+    },
+    "points": [
+      "49 Musical events conducted, 250+ singers, 2000+ videos",
+      "14 events to help 8 charity organizations in India",
+      "12 Duet Chats - New initiative",
+      "6 Music Chats with Musicians on YouTube",
+      "5th IGL Raaga Season in progress",
+      "Trained many students in Sketching, Light music and Communications"
+    ],
+    "partition": "all",
+    "header": "Arts & Music"
+  },
+  {
+    "_id": {
+      "$oid": "61bc74690dc466e067903d56"
+    },
+    "header": "Education & Technology",
+    "partition": "all",
+    "points": [
+      "52 Students collaborated from 5 Schools in India",
+      "15 Online webinars with 30+ presenters",
+      "200+ Students Awarded Project Completion Certificates",
+      "4 Students doing Paid Internship Projects with Companies in USA & UAE",
+      "Expanding courses to Arts, and Science Students in College",
+      "n",
+      "demo"
+
+    ]
+  }]
