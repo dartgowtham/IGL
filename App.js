@@ -17,6 +17,7 @@ import Tech from './Screen/Components/Tech';
 // import { useFonts } from '@expo-google-fonts/baloo-2';
 import { useState } from 'react';
 import useFonts from './hooks';
+import Area_List from './Screen/Sub_Components/Area_List';
 
 
 export default function App() {
@@ -55,6 +56,7 @@ if (!IsReady) {
       <Stack.Screen name="Charity" component={Charity}/>
       <Stack.Screen name="Edu" component={Edu}/>
       <Stack.Screen name="Tech" component={Tech}/>
+      <Stack.Screen name="Area" component={Area_List}/>
 
       </Stack.Navigator>
       </NavigationContainer>

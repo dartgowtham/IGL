@@ -26,7 +26,7 @@ export default function Highlights({navigation})
   return (
     <SafeAreaView style={{marginTop:35}}>
       <View style={{flexDirection:'row',}}>
-        <TouchableOpacity onPress={()=>{navigation.navigate('Home')}}><Image source={Back} alt='Go' style={{width:60,height:60,aspectRatio:1.2}}/></TouchableOpacity>
+        <TouchableOpacity onPress={()=>{navigation.navigate('Home')}}><Image source={Back} alt='Go' style={{width:40,height:40,aspectRatio:1.2}}/></TouchableOpacity>
         <Text style={{width:300,alignSelf:'center',fontSize:25,fontWeight:900,color:'#6e0202'}}>Highlights</Text>
       </View>
         {/* <ScrollView> */}

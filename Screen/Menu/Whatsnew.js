@@ -19,11 +19,11 @@ export default function Whatsnew({navigation})
   return (
     <SafeAreaView style={{marginTop:35}}>
       <View style={{flexDirection:'row',}}>
-        <TouchableOpacity onPress={()=>{navigation.navigate('Home')}}><Image source={Back} alt='Go' style={{width:60,height:60,aspectRatio:1.2}}/></TouchableOpacity>
+        <TouchableOpacity onPress={()=>{navigation.navigate('Home')}}><Image source={Back} alt='Go' style={{width:40,height:40,aspectRatio:1.2}}/></TouchableOpacity>
         <Text style={{width:300,alignSelf:'center',fontSize:25,fontWeight:900,color:'#6e0202'}}>What's New</Text>
       </View>
       <View>
-        <Text style={{marginLeft:10,fontSize:19,width:3770,fontWeight:900,color:'#6e0202'}}>{data[0].header}</Text>
+        <Text style={{marginTop:20,marginLeft:10,fontSize:19,width:3770,fontWeight:900,color:'#6e0202'}}>{data[0].header}</Text>
         <FlatList
       data={po}
       renderItem={renderItem}

@@ -1,0 +1,25 @@
+[{
+    "_id": {
+      "$oid": "61c174e9f9f554ef6f1e1d9b"
+    },
+    "Sno": 1,
+    "Course_title": "Super Presenter",
+    "Description": "Theory and Practicals on :\n       - Writing & Presentation Skills\n       - Visual Presentation Techniques\n       - Interviewing Skills",
+    "partition": "all"
+  },{
+    "_id": {
+      "$oid": "61c1759bf9f554ef6f1e1d9c"
+    },
+    "Sno": 2,
+    "Course_title": "Sketching Basics",
+    "Description": "Introduction to tools Practicals on: \n       - Shapes, Circling, Half Infinity, Infinity\n       - Strokes, Pressure, Smudge, Blend\n       - Grid Lines, Structuring",
+    "partition": "all"
+  },{
+    "_id": {
+      "$oid": "61c17617f9f554ef6f1e1d9d"
+    },
+    "Sno": 3,
+    "Course_title": "Light Music Singing",
+    "Description": "Theory behind Light Music Singing\n       - Pitch, Rhythm, Tune, Diction, Expression\n\nPracticals on Karaoke based singing and song reviews\n\nGroup Song Medley Project",
+    "partition": "all"
+  }]
