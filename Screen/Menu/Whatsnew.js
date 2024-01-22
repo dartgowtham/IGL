@@ -1,6 +1,6 @@
 import { View, Text, TouchableOpacity,SafeAreaView, Image,FlatList } from 'react-native'
 import React from 'react'
-import Back from '../../assets/backmaroon.png'
+import Back from '../../assets/Images/backmaroon.png'
 import data from '../../assets/Json/Whats.json'
 
 

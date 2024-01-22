@@ -1,0 +1,109 @@
+[{
+    "_id": {
+      "$oid": "61c08aa0c91b095a0e1c1ff1"
+    },
+    "Sno": 1,
+    "Course_Id": "ALX-101",
+    "Course": "Introduction to Amazon Alexa Skills",
+    "Description": [
+      "Build a simple skill using Amazon Alexa Voice Assistant",
+      "Uses Blueprints and Custom Skills for the project"
+    ],
+    "partition": "all"
+  },{
+    "_id": {
+      "$oid": "61c08c4ac91b095a0e1c1ff2"
+    },
+    "Sno": 2,
+    "Course_Id": "AUC-100",
+    "Course": "Introduction to Audacity Software",
+    "Description": [
+      "Learn to use audio processing features of Audacity",
+      "Includes theory and practical examples on audio processing"
+    ],
+    "partition": "all"
+  },{
+    "_id": {
+      "$oid": "61c08d12c91b095a0e1c1ff3"
+    },
+    "Sno": 3,
+    "Course_Id": "FCB-100",
+    "Course": "Introduction to Facebook Chatbot",
+    "Description": [
+      "Build a simple chatbot using Facebook Messenger Platform",
+      "Uses Node.js and Ngrok software packages"
+    ],
+    "partition": "all"
+  },{
+    "_id": {
+      "$oid": "61c08dbfc91b095a0e1c1ff5"
+    },
+    "Sno": 4,
+    "Course_Id": "FCB-201",
+    "Course": "Introduction to Google Dialogflow",
+    "Description": [
+      "Build a simple agent using Google Dialogflow Console",
+      "Uses Facebook Messenger integration for testing the agent"
+    ],
+    "partition": "all"
+  },{
+    "_id": {
+      "$oid": "61c08e74c91b095a0e1c1ff6"
+    },
+    "Sno": 5,
+    "Course_Id": "FCB-202",
+    "Course": "Introduction to MongoDB Database",
+    "Description": [
+      "Create, Modify, Delete data in No-SQL MongoDB",
+      "Uses local as well as cloud-based DB servers"
+    ],
+    "partition": "all"
+  },{
+    "_id": {
+      "$oid": "61c08f2fc91b095a0e1c1ff7"
+    },
+    "Sno": 6,
+    "Course_Id": "FSK-101",
+    "Course": "Introduction to Full Stack Development",
+    "Description": [
+      "Implement Front-End and Back-End modules of a typical Web App",
+      "Used React.js for Front-End and MonogoDB for Back-End"
+    ],
+    "partition": "all"
+  },{
+    "_id": {
+      "$oid": "61c08fcec91b095a0e1c1ff8"
+    },
+    "Sno": 7,
+    "Course_Id": "MCB-100",
+    "Course": "Introduction to Microsoft Azure Chatbot ",
+    "Description": [
+      "Implement a simple bot using Azure Bot Framework",
+      "Uses Microsoft Bot Emulator and Microsoft Teams for testing the bot"
+    ],
+    "partition": "all"
+  },{
+    "_id": {
+      "$oid": "61c0906ac91b095a0e1c1ff9"
+    },
+    "Sno": 8,
+    "Course_Id": "SKT-100",
+    "Course": "Introduction to Sketching",
+    "Description": [
+      "Learn basic techniques of sketching",
+      "Includes theory and practical examples of sketching"
+    ],
+    "partition": "all"
+  },{
+    "_id": {
+      "$oid": "61c090d4c91b095a0e1c1ffa"
+    },
+    "Sno": 9,
+    "Course_Id": "VPC-100",
+    "Course": "Introduction to Video Processing",
+    "Description": [
+      "Learn basic techniques on video editing and processing",
+      "Includes theory and practical examples on video editing and processing"
+    ],
+    "partition": "all"
+  }]

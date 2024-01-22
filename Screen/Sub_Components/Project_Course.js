@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import { View, Text, FlatList, TouchableOpacity, SafeAreaView ,Image} from 'react-native';
-import data from '../../assets/Json/course.json';
-import Back from '../../assets/Images/back_arrow_orange.png'
+import data from '../../assets/Json/Project_Course.json';
+import Back from '../../assets/Images/backblue.png'
 
 
 const YourComponent = ({navigation}) => {
@@ -13,9 +13,10 @@ const YourComponent = ({navigation}) => {
 
     return (
       <View>
-      <View style={{width:350,height:50,borderRadius:5,borderTopWidth:6,borderTopColor:'#f06d16',justifyContent:'center',marginTop:20,backgroundColor:'#F5F5F5',marginLeft:10,marginRight:10,elevation:10}}>
+      <View style={{width:350,height:90,borderRadius:5,borderTopWidth:6,borderTopColor:'#097ab8',justifyContent:'center',marginTop:20,backgroundColor:'#F5F5F5',marginLeft:10,marginRight:10,elevation:10}}>
         <TouchableOpacity onPress={() => setExpandedItem(isExpanded ? null : item.Sno)}>
-          <Text style={{ marginLeft:10,fontWeight:900,fontSize:22,textAlign:'center',color:'#f06d16' }}>{item.Course_title}</Text>
+          <Text style={{ marginLeft:10,fontWeight:900,fontSize:22,textAlign:'center',color:'#097ab8' }}>{item.Course_Id}</Text>
+          <Text style={{ marginLeft:10,fontWeight:900,fontSize:17,textAlign:'center' }}>{item.Course}</Text>
         </TouchableOpacity>
        
       </View>
@@ -29,16 +30,17 @@ const YourComponent = ({navigation}) => {
   };
 
   return (
-    <SafeAreaView style={{marginTop:35}}>
+    <SafeAreaView style={{marginTop:35,flex:1,marginBottom:30}}>
            <View style={{flexDirection:'row',}}>
              <TouchableOpacity onPress={()=>{navigation.navigate('Home')}}><Image source={Back} alt='Go' style={{width:40,height:40,aspectRatio:1.2}}/></TouchableOpacity>
-             <Text style={{width:300,alignSelf:'center',fontSize:25,fontWeight:900,color:'#f06d16'}}>Course</Text>
+             <Text style={{width:300,alignSelf:'center',fontSize:25,fontWeight:900,color:'#097ab8'}}>Project/Courses</Text>
            </View>
-    <View>
+    <View style={{flex:1}}>
       <FlatList
         data={data}
         keyExtractor={(item) => item.Sno.toString()}
         renderItem={renderItem}
+      
       />
     </View>
     </SafeAreaView>

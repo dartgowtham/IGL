@@ -1,10 +1,10 @@
 import { View, Text, Image, SafeAreaView, TouchableHighlight,Modal, Dimensions, TouchableOpacity } from 'react-native'
 import { useState } from "react";
 import React, { Component } from 'react' 
-import Logo from '../../assets/igl-logo.png'
-import Bar from '../../assets/optionmaroon.png'
-import tech from '../../assets/tech.png'
-import back from '../../assets/backmaroon.png'
+import Logo from '../../assets/Images/igl-logo.png'
+import Bar from '../../assets/Images/optionmaroon.png'
+import tech from '../../assets/Images/tech.png'
+import back from '../../assets/Images/backblue.png'
 
 
 
@@ -31,7 +31,7 @@ export default class Tech extends Component
         {/* Menu Bar */}           
         
     <View style={{flexDirection:'row',jusrtifyContent:'space-evenly',alignSelf:'center'}}>
-      <Image source={Logo} alt='Logo' style={{width:80,height:80,aspectRatio:1.2}}/>
+      <TouchableOpacity onPress={()=>{this.props.navigation.navigate('Home')}}><Image source={Logo} alt='Logo' style={{width:70,height:70,aspectRatio:1.2}}/></TouchableOpacity>
       <Text style={{width:200,textAlign:'center',alignSelf:'center',fontSize:20,fontWeight:'900'}}>Insta Gana Live</Text>
        <TouchableHighlight  style={{alignSelf:'center'}} onPress={()=>{this.setState({show:true})}}>
         <Image source={Bar} alt='nav'  style={{width:50,height:50,justifyContent:'center',alignSelf:'center',}} />
@@ -83,14 +83,14 @@ export default class Tech extends Component
       <View style={{marginTop:200,justifyContent:'center',alignItems:'center'}}>
       <View style={{width:340,height:70,borderRadius:20,backgroundColor:'#f5f5f5',elevation:5,flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}>
       <TouchableOpacity onPress={()=>{this.props.navigation.navigate("Area")}} style={{width:340,height:70,flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}>
-        <Text style={{width:150,fontSize:15,fontWeight:900,marginLeft:10}}>Area List</Text>
+        <Text style={{width:150,fontSize:15,fontWeight:900,marginLeft:10,color:'#097ab8'}}>Area List</Text>
         <Image source={back} alt='to' style={{width:30,height:30,transform:[{rotate:'180deg'}]}} />
       </TouchableOpacity>
 
       </View>
       <View style={{marginTop:20,width:340,height:70,borderRadius:20,backgroundColor:'#f5f5f5',elevation:5,flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}>
-      <TouchableOpacity style={{width:340,height:70,flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}>
-        <Text style={{width:150,fontSize:15,fontWeight:900,marginLeft:10}}>Project and Course</Text>
+      <TouchableOpacity onPress={()=>{this.props.navigation.navigate("Project_Course")}} style={{width:340,height:70,flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}>
+        <Text style={{width:150,fontSize:15,fontWeight:900,marginLeft:10,color:'#097ab8'}}>Project and Course</Text>
         <Image source={back} alt='to' style={{width:30,height:30,transform:[{rotate:'180deg'}]}} />
       </TouchableOpacity>
 

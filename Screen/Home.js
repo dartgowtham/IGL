@@ -1,13 +1,13 @@
 import { View, Text, Image, SafeAreaView, TouchableHighlight,Modal, Dimensions, TouchableOpacity } from 'react-native'
 import { useState } from "react";
 import React, { Component } from 'react' 
-import Logo from '../assets/igl-logo.png'
-import Bar from '../assets/optionmaroon.png' 
-import art from '../assets/art.png' 
-import tech from '../assets/tech.png' 
-import edu from '../assets/edu.png' 
+import Logo from '../assets/Images/igl-logo.png'
+import Bar from '../assets/Images/optionmaroon.png' 
+import art from '../assets/Images/art.png' 
+import tech from '../assets/Images/tech.png' 
+import edu from '../assets/Images/edu.png' 
 // import { useFonts } from 'expo-font'
-import cha from '../assets/cha.png'  
+import cha from '../assets/Images/cha.png'  
 import useFonts from '../hooks';
 import AppLoading from 'expo-app-loading';
 

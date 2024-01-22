@@ -1,6 +1,6 @@
 import { View, Text, TouchableOpacity,SafeAreaView, Image,SectionList, FlatList, ScrollView } from 'react-native'
 import React from 'react'
-import Back from '../../assets/backmaroon.png'
+import Back from '../../assets/Images/backmaroon.png'
 // import data from '../../assets/Highlights.json'
 import data from '../../assets/Json/Highlights.json'
 
@@ -24,13 +24,13 @@ export default function Highlights({navigation})
     </View>
   );
   return (
-    <SafeAreaView style={{marginTop:35}}>
+    <SafeAreaView style={{marginTop:35,flex:1}}>
       <View style={{flexDirection:'row',}}>
         <TouchableOpacity onPress={()=>{navigation.navigate('Home')}}><Image source={Back} alt='Go' style={{width:40,height:40,aspectRatio:1.2}}/></TouchableOpacity>
         <Text style={{width:300,alignSelf:'center',fontSize:25,fontWeight:900,color:'#6e0202'}}>Highlights</Text>
       </View>
         {/* <ScrollView> */}
-      <View>
+      <View style={{flex:1}}>
       <SectionList
       sections={sections}
       keyExtractor={(item, index) => item + index} // Ensure unique keys

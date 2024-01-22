@@ -1,0 +1,15 @@
+[{
+    "_id": {
+      "$oid": "61c04360ba38d0eaca98b984"
+    },
+    "Technology_area": [
+      "Web Apps",
+      "Artificial Intelligence",
+      "Internet of Things",
+      "Edge Computing",
+      "Telecommunications",
+      "Messaging",
+      "Cloud"
+    ],
+    "partition": "all"
+  }]

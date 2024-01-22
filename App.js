@@ -13,6 +13,7 @@ import Arts from './Screen/Components/Arts';
 import Charity from './Screen/Components/Charity';
 import Edu from './Screen/Components/Edu';
 import Tech from './Screen/Components/Tech';
+import Project_Course from './Screen/Sub_Components/Project_Course'
 // import useFonts from 'f';
 // import { useFonts } from '@expo-google-fonts/baloo-2';
 import { useState } from 'react';
@@ -57,6 +58,7 @@ if (!IsReady) {
       <Stack.Screen name="Edu" component={Edu}/>
       <Stack.Screen name="Tech" component={Tech}/>
       <Stack.Screen name="Area" component={Area_List}/>
+      <Stack.Screen name="Project_Course" component={Project_Course}/>
 
       </Stack.Navigator>
       </NavigationContainer>
