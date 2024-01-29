@@ -1,0 +1,132 @@
+[{
+    "_id": {
+      "$oid": "61c31dd7a9bb64d5d2926f75"
+    },
+    "Sno": 1,
+    "Name": "Dr.M.G.R. Educational & Research Institute",
+    "Country": "India",
+    "City": "Chennai",
+    "IGL_Activities_date": [
+      "Sep 2021",
+      "Jul 2021",
+      "May 2021",
+      "Mar 2021",
+      "Jan 2021",
+      "Jun 2020",
+      "Jun 2020",
+      "May 2020",
+      "Nov 2019",
+      "Jun 2019"
+    ],
+    "IGL_Activities_Description": [
+      "4 Students from 2nd Year B.Tech chosen for Paid Internship Projects",
+      "Awarded FSK project certificates to 19 students",
+      "Awarded FCB project certificates to 29 students",
+      "Shortlisted 104 students for the hands-on project based on JavaScript",
+      "458 students signed up for PBL!",
+      "Pilot phase completed – selected students completed the pilot project",
+      "Faculty Development Program on AI/ML and Cloud",
+      "Webinar on AI/ML",
+      "MOU between the Institute and IGL signed",
+      "Institute and IGL team members met and started the discussions"
+    ],
+    "partition": "all"
+  },{
+    "_id": {
+      "$oid": "61c32661a9bb64d5d2926f77"
+    },
+    "Sno": 2,
+    "Name": "Rajapalayam Rajus’ College (RRC)",
+    "Country": "India",
+    "City": "Rajapalayam",
+    "IGL_Activities_date": [
+      "Nov 2021",
+      "Oct 2021",
+      "Sep 2021",
+      "Jun 2021",
+      "Mar 2021",
+      "Feb 2021",
+      "Jul 2020",
+      "Jun 2020",
+      "Feb 2019",
+      "Dec 2019",
+      "Oct 2019",
+      "Sep 2019",
+      "Apr 2019"
+    ],
+    "IGL_Activities_Description": [
+      "RRC CS Staff Selected by Ecrio, Inc, USA for 2nd Project",
+      "RRC CS Staff Awarded Project Completion Certifcate from Ecrio, Inc, USA",
+      "RRC CS Staff / Students selected for Android App Project from IGL",
+      "RRC CS Stafff Selected by Ecrio, Inc, USA for Summer Technology Project work",
+      "16 PG and 47 UG Final Year Commerce Students Awarded Project Certificates",
+      "International Symposium on MongoDB",
+      "Faculty Development Program on Emerging Technologies",
+      "10 PG and 40 UG Final Year CS Students Awarded Project Certificates",
+      "Projects completed with RRC CS Staff",
+      "Student Orientation on IGL Projects",
+      "IGL Webinar on Edge Computing",
+      "IGL MOU Signed",
+      "IGL Symposium on Latest in Technology"
+    ],
+    "partition": "all"
+  },{
+    "_id": {
+      "$oid": "61c328dba9bb64d5d2926f78"
+    },
+    "Sno": 3,
+    "Name": "Sree Narayana Guru College (SNGC)",
+    "Country": "India",
+    "City": "Coimbatore",
+    "IGL_Activities_date": [
+      "Jan 2021",
+      "Jun 2020",
+      "Jul 2019"
+    ],
+    "IGL_Activities_Description": [
+      "Completed orientation for students",
+      "Final year students awarded project certificates",
+      "IGL MOU Signed"
+    ],
+    "partition": "all"
+  },{
+    "_id": {
+      "$oid": "61c32985a9bb64d5d2926f79"
+    },
+    "Sno": 4,
+    "Name": "BSS B.Ed Training College",
+    "Country": "India",
+    "City": "Palakkad",
+    "IGL_Activities_date": [
+      "Jul 2021",
+      "Dec 2020",
+      "Sep 2020",
+      "Jul 2020",
+      "Jul 2019"
+    ],
+    "IGL_Activities_Description": [
+      "Online course on Effective Presentation and Communications",
+      "IGL-BSS MOU Signed",
+      "IGL Webinar on Positive Psychology",
+      "IGL Webinar on Inclusive Education",
+      "IGL Music Concert held at BSS College"
+    ],
+    "partition": "all"
+  },{
+    "_id": {
+      "$oid": "61c32a21a9bb64d5d2926f7a"
+    },
+    "Sno": 5,
+    "Name": "Ramco Institute of Technology (RIT)",
+    "Country": "India",
+    "City": "Rajapalayam",
+    "IGL_Activities_date": [
+      "Feb 2020",
+      "Feb 2020"
+    ],
+    "IGL_Activities_Description": [
+      "Completed student orientation",
+      "IGL MOU Signed"
+    ],
+    "partition": "all"
+  }]

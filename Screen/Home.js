@@ -16,25 +16,6 @@ import AppLoading from 'expo-app-loading';
 // import whatsnew  from '../Models/whatsnew';
 
 const {height,width}=Dimensions.get('window')
-// Sign in a atlas for data access
-
-// const Signin=async()=>{
-//     const app=Realm.App({id:"igl-tvbex"});
-//     const credentials=Realm.Credentials.emailPassword("gowthamapandian2505@gmail.com","gowtham");
-//     try{
-//         const user=await app.logIn(credentials)
-//     }catch(err){
-//         console.error("Failed to log in",err)
-//     }
-//     const realm=await Realm.open({
-//         sync:{
-//             user:app.currentUser,
-//             partitionValue:'all',
-//         }
-//     })
-//     global.whatsnew=realm.objects("whatsnew")
-//     console.log("Data vanthuchu..................",whatsnew)
-// }
 
 
 

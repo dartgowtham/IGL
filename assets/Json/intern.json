@@ -1,0 +1,33 @@
+[{
+    "_id": {
+      "$oid": "61c31b86a9bb64d5d2926f6f"
+    },
+    "Sno": 1,
+    "Names": [
+      "Adlen, X.R.",
+      "Jaison, M.",
+      "Nicholas Ponraj, M"
+    ],
+    "Institution": "Dr.M.G.R. Educational & Research Institute",
+    "Country": "India",
+    "City": "Chennai",
+    "Date": "01-Oct-21",
+    "Sponsor": "Mfluid, UAE",
+    "Project_Title": "Online Candidate Test System",
+    "partition": "all"
+  },{
+    "_id": {
+      "$oid": "61c31cfda9bb64d5d2926f72"
+    },
+    "Sno": 2,
+    "Names": [
+      "Radesh Sharma"
+    ],
+    "Institution": "Dr.M.G.R. Educational & Research Institute",
+    "Country": "India",
+    "City": "Chennai",
+    "Date": "01-Oct-21",
+    "Sponsor": "Ecrio, USA",
+    "Project_Title": "People To Things Messaging Using Microsoft IoT Edge Runtime",
+    "partition": "all"
+  }]

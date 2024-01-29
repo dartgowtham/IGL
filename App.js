@@ -14,6 +14,8 @@ import Charity from './Screen/Components/Charity';
 import Edu from './Screen/Components/Edu';
 import Tech from './Screen/Components/Tech';
 import Project_Course from './Screen/Sub_Components/Project_Course'
+import College from './Screen/Sub_Components/College'
+import Internship from './Screen/Sub_Components/internship'
 // import useFonts from 'f';
 // import { useFonts } from '@expo-google-fonts/baloo-2';
 import { useState } from 'react';
@@ -59,6 +61,8 @@ if (!IsReady) {
       <Stack.Screen name="Tech" component={Tech}/>
       <Stack.Screen name="Area" component={Area_List}/>
       <Stack.Screen name="Project_Course" component={Project_Course}/>
+      <Stack.Screen name="College" component={College}/>
+      <Stack.Screen name="Internship" component={Internship}/>
 
       </Stack.Navigator>
       </NavigationContainer>
